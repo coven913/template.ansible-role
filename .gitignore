@@ -1,0 +1,12 @@
+*.retry
+*.swp
+.cache*
+.DS_Store
+.python_*
+.venv
+.vscode/*
+__pycache__
+.vagrant/
+*.log
+vbox_host.cfg
+*.py[co]
