@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/coven913/template.ansible-role/compare/1.0.0...1.1.0) (2025-01-30)
+
+
+### Features
+
+* add template credits to role readme ([d3e360f](https://github.com/coven913/template.ansible-role/commit/d3e360fc1c8226a6034bbc0e580897d77910ba19))
+
 ## 1.0.0 (2025-01-30)
 
 
