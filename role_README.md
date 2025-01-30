@@ -86,3 +86,6 @@ _provide an example of how to implement this role in a playbook. provide multipl
   roles:
     - role: my_role
 ```
+
+---
+> ℹ️ This ansible role adheres to the [Coven913 ansible role template](https://github.com/coven913/template.ansible-role).
