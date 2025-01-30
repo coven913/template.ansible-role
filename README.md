@@ -4,7 +4,7 @@ This repository provides an opinionated template for ansible roles.
 
 It is mainly intended to be used as a template repository for ansible role repositories, and includes a skeleton file structure, example files, CI/CD workflows for version/release management and configuration files for git.
 
-This repository tries to adhere to RedHat conventions for ansible, and expands on them occasionally. It is heavily opinionated and tailored to the way we do things at Coven913
+This repository tries to adhere to RedHat conventions for ansible, and expands on them occasionally. It is heavily opinionated and tailored to the way we do things at Coven913. This is in no way perfect, and it doesn't intend to be. The purpose of open sourcing this internal template is simply to share what has worked for us, not to dictate how others should do their work.
 
 
 - [Usage](#usage)
@@ -42,6 +42,7 @@ After cloning the repository, you should at the very least complete the followin
 4. Remove all not commented lines in `./CODEOWNERS`
 5. change the version in `./.release-please-manifest.json` to `0.0.0`
 
+Additionally, remove all files not required in your role.
 
 ## versioning
 This repository includes a [release-please](https://github.com/googleapis/release-please-action) configuration that versions an ansible role repository as per internal versioning conventions (documentation will follow).
